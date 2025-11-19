@@ -1,41 +1,38 @@
 :root {
-  --oui-font-family: 'Manrope', sans-serif;
+  --oui-font-family: 'Montserrat', sans-serif;
   --oui-font-size-base: 16px;
 
-  /* colors – dark professional greys */
-  --oui-color-primary: 120 120 120;           /* neutral grey accent */
+  /* colors */
+  --oui-color-primary: 120 120 120;
   --oui-color-primary-light: 160 160 160;
   --oui-color-primary-darken: 95 95 95;
   --oui-color-primary-contrast: 255 255 255;
 
-  --oui-color-link: 180 180 180;              /* clean muted link */
+  --oui-color-link: 180 180 180;
   --oui-color-link-light: 210 210 210;
 
-  --oui-color-secondary: 255 255 255;         /* used for text on dark backgrounds */
+  --oui-color-secondary: 255 255 255;
   --oui-color-tertiary: 130 130 130;
   --oui-color-quaternary: 110 110 110;
 
-  /* status colors – still strong for clarity */
-  --oui-color-danger: 220 70 90;              /* desaturated red */
+  --oui-color-danger: 220 70 90;
   --oui-color-danger-light: 240 140 150;
   --oui-color-danger-darken: 190 40 60;
   --oui-color-danger-contrast: 255 255 255;
 
-  --oui-color-success: 60 190 130;            /* muted green */
+  --oui-color-success: 60 190 130;
   --oui-color-success-light: 120 220 170;
   --oui-color-success-darken: 30 140 100;
   --oui-color-success-contrast: 255 255 255;
 
-  --oui-color-warning: 230 180 50;            /* warm amber */
+  --oui-color-warning: 230 180 50;
   --oui-color-warning-light: 255 210 110;
   --oui-color-warning-darken: 190 130 20;
   --oui-color-warning-contrast: 0 0 0;
 
-  /* deep dark surfaces */
-  --oui-color-fill: 22 22 24;                 /* main background */
+  --oui-color-fill: 22 22 24;
   --oui-color-fill-active: 32 32 35;
 
-  /* greyscale system */
   --oui-color-base-1: 180 180 180;
   --oui-color-base-2: 155 155 155;
   --oui-color-base-3: 130 130 130;
@@ -50,13 +47,12 @@
   --oui-color-base-foreground: 255 255 255;
   --oui-color-line: 255 255 255;
 
-  /* trading colors */
   --oui-color-trading-loss: 220 70 90;
   --oui-color-trading-loss-contrast: 255 255 255;
   --oui-color-trading-profit: 60 190 130;
   --oui-color-trading-profit-contrast: 255 255 255;
 
-  /* gradients – subtle, dark, minimalist */
+  /* gradients */
   --oui-gradient-primary-start: 30 30 30;
   --oui-gradient-primary-end: 60 60 60;
 
@@ -90,7 +86,7 @@
   --oui-rounded-2xl: 16px;
   --oui-rounded-full: 9999px;
 
-  /* spacing (kept, though they seem unusually large) */
+  /* spacing */
   --oui-spacing-xs: 20rem;
   --oui-spacing-sm: 22.5rem;
   --oui-spacing-md: 26.25rem;
@@ -99,6 +95,6 @@
 }
 
 html, body {
-  font-family: 'Manrope', sans-serif !important;
+  font-family: 'Montserrat', sans-serif !important;
   font-size: 16px !important;
 }
